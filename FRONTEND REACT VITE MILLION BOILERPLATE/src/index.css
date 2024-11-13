@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply box-border p-0 m-0 font-inter scrollbar-primary;
+}
+
+::selection {
+  @apply bg-primary-accent !important;
+}
+
+html,
+body {
+  @apply min-w-full min-h-full !important;
+}
